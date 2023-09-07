@@ -1,5 +1,7 @@
+require: rubocop-rails
+
 Style/FrozenStringLiteralComment:
     Enabled: false
 
 Style/StringLiterals:
-    EnforcedStyle: double_quotes
+    EnforcedStyle: single_quotes
